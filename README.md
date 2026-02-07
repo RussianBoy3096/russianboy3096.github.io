@@ -1,6 +1,6 @@
-# CaesarLibrary Documentation
+# CaesarFramework Documentation
 
-**CaesarLibrary** is a framework for creating and adding custom content to Gladihoppers mods.
+**CaesarFramework** is a framework for creating and adding custom content to Gladihoppers mods.
 
 It provides structured systems for registering weapons, armor pieces, shields, and other equipment, allowing modders to expand the game without rewriting core logic.
 
@@ -10,9 +10,9 @@ This documentation focuses on how to use CaesarLibrary to create your own items 
 
 ---
 
-## What is CaesarLibrary?
+## What is CaesarFramework?
 
-CaesarLibrary is designed to:
+CaesarFramework is designed to:
 
 - Provide reusable item creation systems
 - Standardize how equipment is registered
@@ -31,11 +31,11 @@ Typical mod setup:
 ```
 Mods/
 |
-|- CaesarLibrary.dll
+|- CaesarFramework.dll
 |- Newtonsoft.Json.dll
 |- YourMod.dll
 |
-|-- CaesarLibrary_Assets/
+|-- CaesarFramework_Assets/
 |-- Weapons.json
 |-- Helmets.json
 |-- Armors.json
@@ -45,7 +45,7 @@ Mods/
 |-- Shoes.json
 ```
 
-Your mod reads from these JSON files and registers items through CaesarLibrary.
+Your mod reads from these JSON files and registers items through CaesarFramework.
 
 ---
 
@@ -74,7 +74,7 @@ When the mod loads:
 
 1. JSON is read from disk
 2. Entries are deserialized
-3. CaesarLibrary registers each item
+3. CaesarFramework registers each item
 
 No recompilation required; just edit, save, restart the game.
 
@@ -101,7 +101,7 @@ AbsoluteRoyal demonstrates how to:
 * Load JSON files
 * Register custom equipment
 * Apply sprite pivots and offsets
-* Structure a CaesarLibrary-based mod
+* Structure a CaesarFramework-based mod
 Use it as a reference implementation when building your own content.
 
 ---
@@ -114,7 +114,7 @@ For example, many helmets have a 14px width, so it's recommended to work with th
 
 ## Future Plans
 
-Planned CaesarLibrary expansions include:
+Planned CaesarFramework expansions include:
 * Full support for Arcade Game Mode (changing the hordes, enemies, and more)
 * Full support for Spartacus War (changing units, factions, and eventually even the map itself!)
 * Advanced pivot inheritance
