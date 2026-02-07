@@ -130,13 +130,15 @@ A public Discord server is planned for support and collaboration.
 
 ---
 
+### Thanks to
+**Pekka11208**: brotha u draw pretty damn well, you already made many sick sprites for many parts of my mods just because you wanted to, truly our goat
+
+**aNtlers (AKA Anders Lundbjork)**: for making Gladihoppers, of course
+
+**Dreamon Studio Discord Community**: for being there, giving out suggestions, ideas and feedback.
+
 **Credits**
 
 Framework: Russ (AKA Vastrael)
 CaesarLibrary and Royalhoppers: Russ
-
-### Thanks to
-**Pekka11208**: brotha u draw pretty damn well, you already made many sick sprites for many parts of my mods just because you wanted to, truly our goat
-**aNtlers (AKA Anders Lundbjork)**: for making Gladihoppers, of course
-**Dreamon Studio Discord Community**: for being there, giving out suggestions, ideas and feedback.
 
