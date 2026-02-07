@@ -1,3 +1,9 @@
 theme: jekyll-theme-minimal
-title: Russ stuff documentation
-description: Bookmark this to keep an eye on my project updates!
+
+title: CaesarLibrary Documentation
+description: Framework documentation for creating Gladihoppers mods using CaesarLibrary.
+
+show_downloads: false
+
+github:
+  is_project_page: false
